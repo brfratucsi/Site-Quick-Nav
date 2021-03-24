@@ -1,0 +1,244 @@
+html  {
+  scroll-behavior: smooth;
+  }
+body {
+    margin: auto;
+    background: url(../images/mainBackground.jpg);
+    background-size: 30%;
+  }
+
+ .container {
+    width: 960px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+  }
+
+
+.navBar{
+  font-family: 'Iceberg', cursive;
+
+  .banner {
+    background: #E5E5E9;
+    position: relative;
+    height: 60px;
+      .bannerLogin {
+          position: absolute;
+          font-size: 14px;
+          top: 13px;
+          left: 826px;
+        a{
+            text-decoration: none;
+            display: block;
+              @media only screen and (max-width: 600px){
+                display: none;
+              }
+        }
+    }
+    #Busca{
+          background-color: white;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          width:400px;
+          height: 40px;
+          position: absolute;
+          top: 10px;
+          left: 280px;
+            img{
+              margin-top: 5px;
+            }
+            @media only screen and (max-width: 600px){
+              width: 140px;
+              left: 120px;
+              display: flex;
+            }
+        }
+
+    #txtBusca{
+          float:left;
+          background-color:transparent;
+          font-family: 'Coda', cursive;
+          padding-left:5px;
+          font-size:18px;
+          border:none;
+          height:40px;
+          width:360px;
+            @media only screen and (max-width: 600px){
+              width: 100px;
+            }
+        }
+    .IMGlogo{
+      width: 155px;
+      margin: -10px -25px;
+      position: absolute;
+      top: 15px;
+      left: 30px;
+        @media only screen and (max-width: 600px){
+          width: 100px;
+          top: 25px;
+        }
+    }
+    .IMGlogin{
+      width: 50px;
+      margin: 0px -20px;
+      position: absolute;
+      top: 5px;;
+      right: 30px;
+    }
+  }
+
+.menuMobile{
+  display: none;
+  background: #C92626;
+  height: 50px;
+    @media only screen and (max-width: 600px){
+      display: block;
+      img{
+        width: 50px;
+        margin-left: 155px;
+      }
+    }
+
+}
+
+    nav {
+    background: #C92626;
+    height: 60px;
+      @media only screen and (max-width: 600px){
+        display: none;
+        z-index: 100;
+        height: 180px;
+        margin-top: -10px;
+      }
+      ul{
+        list-style: none;
+      }
+      ul#ul-principal{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        margin-left: -50px;
+          @media only screen and (max-width: 600px){
+            display: block;
+            text-align: center;
+            margin-left: -60px;
+          }
+      }
+      .li-p{
+        margin-top: 10px;
+        margin-left: 50px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+        background: #C92626;
+          @media only screen and (max-width: 600px){
+            font-size: 30px;
+          }
+      }
+      a:hover{
+        color: black;
+      }
+      ul li ul li{
+        background-color: black;
+      }
+      .ul-seguranca{
+        width: 200px;
+        margin-left: -15px;
+          @media only screen and (max-width: 600px){
+            top: 280px;
+          }
+      }
+      .ul-computadores, .ul-consoles, .ul-tendencias, .ul-seguranca{
+        display: none;
+        z-index: 100;
+        position: absolute;
+        background-color: black;
+        margin-top: 10px;
+        text-align: center;
+        li{
+          margin-left: -50px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        a{
+          font-size: 30px;
+          background-color: black;
+          margin-top: 10px;
+        }
+          @media only screen and (max-width: 600px){
+            width: 100%;
+            margin-left: -40px;
+            z-index: 100;
+          }
+      }
+  }
+}
+
+    .off {
+      height: 500px;
+      margin-top: 100px;
+        @media only screen and (max-width: 600px){
+          height: 200px;
+        }
+      h1{
+      font-family: 'Iceberg', cursive;
+      font-size: 50px;
+      margin-left: 250px;
+        @media only screen and (max-width: 600px){
+          font-size: 30px;
+          margin-left: 40px;
+        }
+      }
+      img{
+        width: 600px;
+        margin-left: 180px;
+          @media only screen and (max-width: 600px){
+            width: 300px;
+            margin-left: 30px;
+          }
+      }
+      a{
+        margin-left: 310px;
+        color: red;
+        font-size: 30px;
+          @media only screen and (max-width: 600px){
+            margin-left: 50px;
+            font-size: 22px;
+          }
+      }
+    }
+
+
+    .rodape{
+      display: flex;
+      height: 40px;
+      justify-content: space-between;
+      background: #C4C4C4;
+      font-family: 'Coda', cursive;
+      margin-top: 200px;
+        @media only screen and (max-width: 600px){
+          height: 50px;
+        }
+        p{
+          margin-top: 12px;
+        }
+        .IMGlogo2{
+          width: 110px;
+          height: 40px;
+          margin-left: 10px;
+          @media only screen and (max-width: 600px){
+            margin-top: 5px;
+          }
+        }
+        .redeSocial{
+          width: 110px;
+          margin-top: -10px;
+            @media only screen and (max-width: 600px){
+              margin-top: -5px;
+            }
+        }
+    }

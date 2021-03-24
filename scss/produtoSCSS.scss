@@ -1,0 +1,625 @@
+html  {
+  scroll-behavior: smooth;
+  }
+body {
+    margin: auto;
+    background: url(../images/mainBackground.jpg);
+    background-size: 30%;
+  }
+
+ .container {
+    width: 960px;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      @media only screen and (max-width: 600px) {
+        width: 100%;
+      }
+  }
+
+
+.navBar{
+  font-family: 'Iceberg', cursive;
+
+  .banner {
+    background: #E5E5E9;
+    position: relative;
+    height: 60px;
+      .bannerLogin {
+          position: absolute;
+          font-size: 14px;
+          top: 13px;
+          left: 826px;
+        a{
+            text-decoration: none;
+            display: block;
+              @media only screen and (max-width: 600px){
+                display: none;
+              }
+        }
+    }
+    #Busca{
+          background-color: white;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          width:400px;
+          height: 40px;
+          position: absolute;
+          top: 10px;
+          left: 280px;
+            img{
+              margin-top: 5px;
+            }
+            @media only screen and (max-width: 600px){
+              width: 140px;
+              left: 120px;
+              display: flex;
+            }
+        }
+
+    #txtBusca{
+          float:left;
+          background-color:transparent;
+          font-family: 'Coda', cursive;
+          padding-left:5px;
+          font-size:18px;
+          border:none;
+          height:40px;
+          width:360px;
+            @media only screen and (max-width: 600px){
+              width: 100px;
+            }
+        }
+    .IMGlogo{
+      width: 155px;
+      margin: -10px -25px;
+      position: absolute;
+      top: 15px;;
+      left: 30px;
+        @media only screen and (max-width: 600px){
+          width: 100px;
+          top: 25px;
+        }
+    }
+    .IMGlogin{
+      width: 50px;
+      margin: 0px -20px;
+      position: absolute;
+      top: 5px;;
+      right: 30px;
+    }
+  }
+
+.menuMobile{
+  display: none;
+  background: #C92626;
+  height: 50px;
+    @media only screen and (max-width: 600px){
+      display: block;
+      img{
+        width: 50px;
+        margin-left: 155px;
+      }
+    }
+
+}
+
+    nav {
+    background: #C92626;
+    height: 60px;
+      @media only screen and (max-width: 600px){
+        display: none;
+        z-index: 100;
+        height: 180px;
+        margin-top: -10px;
+      }
+      ul{
+        list-style: none;
+      }
+      ul#ul-principal{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        margin-left: -50px;
+          @media only screen and (max-width: 600px){
+            display: block;
+            text-align: center;
+            margin-left: -60px;
+          }
+      }
+      .li-p{
+        margin-top: 10px;
+        margin-left: 50px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 32px;
+        background: #C92626;
+          @media only screen and (max-width: 600px){
+            font-size: 30px;
+          }
+      }
+      a:hover{
+        color: black;
+      }
+      ul li ul li{
+        background-color: black;
+      }
+      .ul-seguranca{
+        width: 200px;
+        margin-left: -15px;
+          @media only screen and (max-width: 600px){
+            top: 280px;
+          }
+      }
+      .ul-computadores, .ul-consoles, .ul-tendencias, .ul-seguranca{
+        display: none;
+        z-index: 100;
+        position: absolute;
+        background-color: black;
+        margin-top: 10px;
+        text-align: center;
+        li{
+          margin-left: -50px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        a{
+          font-size: 30px;
+          background-color: black;
+          margin-top: 10px;
+        }
+          @media only screen and (max-width: 600px){
+            width: 100%;
+            margin-left: -40px;
+            z-index: 100;
+          }
+      }
+  }
+}
+
+
+  .hero{
+    position: relative;
+    font-family: 'Coda', cursive;
+      @media only screen and (max-width: 600px){
+
+      }
+    }
+  .titulo{
+    margin-left: 30px;
+    h1{
+      font-size: 58px;
+      color: #C92626;
+    }
+    p{
+      font-size: 20px;
+      margin-top: -30px;
+    }
+  }
+
+  .produto-principal1{
+    position: relative;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(../images/nes.png);
+    background-size: 100%;
+    margin-top: 85px;
+  }
+  #botaoAnima1,#botaoAnima2,#botaoAnima3,#botaoAnima4,#botaoAnima5,#botaoAnima6,#botaoAnima7,#botaoAnima8,#botaoAnima9,#botaoAnima10{
+    width: 30px;
+    height: 30px;
+  }
+
+  .botaoRetro1{
+    position: absolute;
+    top: 180px;
+    left: 58px;
+    background-image: url(../images/tenor.gif);
+    background-size: 100%;
+  }
+  .blocoRetro1{
+    display: none;
+    position: absolute;
+    top: -70px;
+    left: 88px;
+    z-index: 100;
+
+    width: 300px;
+    height: 600px;
+    padding-top: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 18px;
+        color: #C92626;
+      }
+      p{
+        font-size: 11px;
+        line-height: 16px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 240px;
+        margin-left: 20px;
+      }
+  }
+
+  .botaoRetro2{
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    background-image: url(../images/tenor.gif);
+    background-size: 100%;
+  }
+  .blocoRetro2{
+    display: none;
+    position: absolute;
+    top: 380px;
+    left: 0px;
+
+    width: 300px;
+    height: 265px;
+    padding-top: 5px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 18px;
+        color: #C92626;
+      }
+      p{
+        font-size: 11px;
+        line-height: 16px;
+        width: 280px;
+        margin-left: 10px;
+      }
+  }
+
+  .botaoRetro3{
+    position: absolute;
+    top: 275px;
+    left: 460px;
+    background-image: url(../images/tenor.gif);
+    background-size: 100%;
+  }
+  .blocoRetro3{
+    display: none;
+    position: absolute;
+    top: 305px;
+    left: 320px;
+    width: 400px;
+    height: 280px;
+    padding-top: 5px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      img{
+        width: 390px;
+        margin-left: 5px;
+      }
+      p{
+        font-size: 11px;
+        line-height: 16px;
+        width: 380px;
+        margin-left: 10px;
+      }
+  }
+
+  .botaoRetro4{
+    position: absolute;
+    top: 340px;
+    left: 820px;
+    background-image: url(../images/tenor.gif);
+    background-size: 100%;
+  }
+  .blocoRetro4{
+    display: none;
+    position: absolute;
+    top: 280px;
+    left: 520px;
+
+    width: 300px;
+    height: 365px;
+    padding-top: 5px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 18px;
+        color: #C92626;
+      }
+      p{
+        font-size: 10px;
+        line-height: 16px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 270px;
+        margin-left: 15px;
+      }
+  }
+
+  .botaoRetro5{
+    position: absolute;
+    top: 80px;
+    left: 470px;
+    background-image: url(../images/tenor.gif);
+    background-size: 100%;
+  }
+  .blocoRetro5{
+    display: none;
+    position: absolute;
+    top: -80px;
+    left: 500px;
+
+    width: 300px;
+    height: 445px;
+    padding-top: 5px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 18px;
+        color: #C92626;
+      }
+      p{
+        font-size: 11px;
+        line-height: 16px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 290px;
+        margin-left: 5px;
+      }
+  }
+
+
+  .shake{
+  	animation: shake 0.4s infinite alternate;
+  }
+  @keyframes shake{
+  	0%{
+      transform: scale(2,2);
+  	}
+    100%{
+      transform: scale(2,2);
+  	}
+  }
+
+  .tituloNES{
+    font-size: 40px;
+    margin-left: 122px;
+  }
+
+
+  .produto-principal2{
+    position: relative;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    background-image: url(../images/console-switch.png);
+    background-size: 100%;
+    margin-top: 150px;
+  }
+  #botaoAtual{
+    width: 30px;
+    height: 30px;
+  }
+  .botaoAtual1{
+    position: absolute;
+    top: 260px;
+    left: 220px;
+    background-image: url(../images/Question_Block.gif);
+    background-size: 100%;
+  }
+  .blocoAtual1{
+    display: none;
+    position: absolute;
+    top: 230px;
+    left: 252px;
+
+    width: 300px;
+    height: 410px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 30px;
+        color: #C92626;
+      }
+      p{
+        font-size: 20px;
+        line-height: 22px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 290px;
+        margin-left: 5px;
+      }
+  }
+
+  .botaoAtual2{
+    position: absolute;
+    top: 330px;
+    left: 650px;
+    background-image: url(../images/Question_Block.gif);
+    background-size: 100%;
+  }
+  .blocoAtual2{
+    display: none;
+    position: absolute;
+    top: 125px;
+    left: 348px;
+
+    width: 300px;
+    height: 495px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 30px;
+        color: #C92626;
+      }
+      p{
+        font-size: 20px;
+        line-height: 22px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 290px;
+        margin-left: 5px;
+      }
+  }
+
+  .botaoAtual3{
+    position: absolute;
+    top: 40px;
+    left: 485px;
+    background-image: url(../images/Question_Block.gif);
+    background-size: 100%;
+  }
+  .blocoAtual3{
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: 183px;
+
+    width: 300px;
+    height: 570px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 30px;
+        font-size: 18px;
+        color: #C92626;
+      }
+      p{
+        font-size: 20px;
+        line-height: 22px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 200px;
+        margin-left: 50px;
+      }
+  }
+
+  .botaoAtual4{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-image: url(../images/Question_Block.gif);
+    background-size: 100%;
+  }
+  .blocoAtual4{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 132px;
+
+    width: 300px;
+    height: 460px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 30px;
+        color: #C92626;
+      }
+      p{
+        font-size: 20px;
+        line-height: 22px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 290px;
+        margin-left: 5px;
+      }
+  }
+
+  .botaoAtual5{
+    position: absolute;
+    top: 90px;
+    left: 685px;
+    background-image: url(../images/Question_Block.gif);
+    background-size: 100%;
+  }
+  .blocoAtual5{
+    display: none;
+    position: absolute;
+    top: -100px;
+    left: 382px;
+
+    width: 300px;
+    height: 627px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+      h2{
+        margin-left: 10px;
+        font-size: 30px;
+        color: #C92626;
+      }
+      p{
+        font-size: 20px;
+        line-height: 22px;
+        width: 280px;
+        margin-left: 10px;
+      }
+      img{
+        width: 290px;
+        margin-left: 5px;
+      }
+  }
+
+  .tituloSwitch{
+    font-size: 40px;
+    margin-top: -20px;
+    margin-left: 320px;
+  }
+
+
+
+    .rodape{
+      display: flex;
+      height: 40px;
+      justify-content: space-between;
+      background: #C4C4C4;
+      font-family: 'Coda', cursive;
+      margin-top: 200px;
+        @media only screen and (max-width: 600px){
+          height: 50px;
+        }
+        p{
+          margin-top: 12px;
+        }
+        .IMGlogo2{
+          width: 110px;
+          height: 40px;
+          margin-left: 10px;
+          @media only screen and (max-width: 600px){
+            margin-top: 5px;
+          }
+        }
+        .redeSocial{
+          width: 110px;
+          margin-top: -10px;
+            @media only screen and (max-width: 600px){
+              margin-top: -5px;
+            }
+        }
+    }
